@@ -16,3 +16,11 @@ def remove_last_em(s):
 
 
 print(remove_last_em('!Hi!'))
+
+# Вариант 2.
+
+def remove_last_em_2(s):
+    return s.removesuffix('!')
+
+
+print(remove_last_em_2('!Hi!'))
