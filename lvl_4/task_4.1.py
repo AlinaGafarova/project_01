@@ -2,7 +2,7 @@ import sqlite3
 
 
 def get_connection():
-    connection = sqlite3.connect('sqlite_1.db')
+    connection = sqlite3.connect('sqlite.db')
     return connection
 
 
